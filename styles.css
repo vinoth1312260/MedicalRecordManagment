@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #8c94b8;
+    color: #ffffff;
+}
+
+header {
+    background-color: #401ada;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul li .signup-btn {
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+header nav ul li .signup-btn:hover {
+    background-color: #8c94b8;
+}
+
+#hero {
+    height: 100vh;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.light-theme .hero-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+.features {
+    padding: 50px 0;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff; /* White color for section title */
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.feature-item {
+    background: #fff; /* White background for feature items */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-item img {
+    width: 100px; /* Adjust image width as needed */
+    height: 100px; /* Adjust image height as needed */
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    color: #333; /* Dark gray color for feature item titles */
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    color: #666; /* Gray color for feature item descriptions */
+}
+.benefits {
+    padding: 50px 0;
+}
+
+.benefits h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff; /* White color for section title */
+}
+
+.benefit-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.benefit-item {
+    background: #fff; /* White background for benefit items */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.benefit-item img {
+    width: 100px; /* Adjust image width as needed */
+    height: 100px; /* Adjust image height as needed */
+    margin-bottom: 15px;
+}
+
+.benefit-item h3 {
+    color: #333; /* Dark gray color for benefit item titles */
+    margin-bottom: 10px;
+}
+
+.benefit-item p {
+    font-size: 16px;
+    color: #666; /* Gray color for benefit item descriptions */
+}
+.about {
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff; /* White color for section title */
+}
+
+.about-content {
+    background: #fff; /* White background for content */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #666; /* Gray color for text */
+    line-height: 1.6;
+}
+footer {
+    background: #005a8b; /* Dark blue for footer background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.feature-item .feature-image {
+    width: 10000px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 50px;
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
