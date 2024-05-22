@@ -211,6 +211,16 @@ footer {
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 50px;
 }
+header nav ul li .signup-btn {
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+header nav ul li .signup-btn:hover {
+    background-color: #8c94b8;
+}
 
 footer p {
     margin: 0; /* Remove default margin */
